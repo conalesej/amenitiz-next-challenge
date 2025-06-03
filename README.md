@@ -57,6 +57,13 @@ Follow these steps to set up and run the project on your local machine:
     Open your browser and navigate to `http://localhost:3000`. You'll be automatically redirected to the Grandmasters list page.
 
 ---
+## Quick App Demo
+
+
+https://github.com/user-attachments/assets/d27e979c-75bf-4d75-8b61-9547768cbc1f
+
+
+---
 
 ## Project Structure
 
