@@ -1,0 +1,17 @@
+.emptyBox {
+  padding: var(--font-size-lg);
+  margin: 0 auto;
+  text-align: center;
+  color: var(--color-primary-700);
+  max-width: 600px;
+}
+
+.title {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  margin-bottom: var(--space-4);
+}
+
+.message {
+  font-size: var(--font-size-md);
+}

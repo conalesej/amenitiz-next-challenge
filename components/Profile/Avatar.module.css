@@ -1,0 +1,15 @@
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 3px solid var(--color-primary-500);
+  position: relative;
+  overflow: hidden;
+
+  box-shadow: var(--shadow-lg);
+}
+.avatar:hover {
+  border-color: var(--color-primary-600);
+  cursor: pointer;
+
+}

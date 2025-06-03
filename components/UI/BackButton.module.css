@@ -1,0 +1,22 @@
+
+.backButton {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-body);
+  font-size: var(--font-size-sm);
+  color: var(--color-primary-500);
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--color-primary-500);
+  border-radius: var(--radius-md);
+}
+
+.backButton:hover {
+  background-color: var(--color-primary-50);
+  transform: translateY(-1px);
+}
+
+.icon {
+  font-size: var(--font-size-lg);
+}

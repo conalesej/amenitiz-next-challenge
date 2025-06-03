@@ -1,0 +1,51 @@
+/* components/Layout/ResponsiveGrid.module.css */
+
+/* Remove default UL styling */
+.grid {
+  display: grid;
+  gap: var(--space-4);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  /* 1 column by default */
+  grid-template-columns: repeat(1, 1fr);
+}
+
+/* Tablet & up: 3 columns */
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Desktop & up: 5 columns */
+@media (min-width: 1280px) {
+  .grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.gridItem {
+  display: block;
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  text-align: center;
+  transition: var(--transition-default)
+
+}
+
+.gridItem:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.link {
+  font-family: var(--font-body);
+  font-size: var(--font-size-lg);
+  color: var(--color-primary-500);
+  display: block;
+  text-decoration: none;
+}

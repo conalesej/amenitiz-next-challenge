@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: var(--space-4);
+  width: 100%;
+}
+
+
+
+.title {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-2xl);
+  color: var(--color-text);
+  text-align: center;
+
+}
+
+.username {
+  font-family: var(--font-body);
+  font-size: var(--font-size-md);
+  color: var(--color-primary-600);
+  margin-top: var(--space-1);
+  text-align: center;
+  cursor: pointer;
+}
+
+
+/* tablet and above */
+@media (min-width: 768px) {
+  .header {
+    flex-direction: row;
+  }
+
+  .title,
+  .username {
+    text-align: unset;
+  }
+}
