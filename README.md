@@ -1,4 +1,4 @@
-# Amenitiz Chess Grandmasters Wiki
+# Amenitiz Chess Grandmasters Wiki ♟️
 
 ## Project Overview
 
@@ -8,7 +8,6 @@ This is a **React + TypeScript** application built with **Next.js** that serves 
 * Provides **dynamic profile pages** for each Grandmaster with detailed stats.
 * Features a **live-updating clock** on profiles showing the last online time.
 * Leverages **Next.js App Router** with **Incremental Static Regeneration (ISR)** for optimal performance and SEO, and is **SEO Optimized** with dynamic metadata for each profile page to improve search engine visibility.
-
 
 ---
 
@@ -41,7 +40,7 @@ Follow these steps to set up and run the project on your local machine:
     ```
 
 3.  **Configure environment variables:**
-    Create a `.env` or `.env.local` file in the project root with the following API endpoints:
+    Create a `.env` or `.env.local` file in the project root with the following:
     ```bash
     NEXT_PUBLIC_CHESS_API_GM_LIST=https://api.chess.com/pub/titled/GM
     NEXT_PUBLIC_CHESS_API_PLAYER=https://api.chess.com/pub/player
@@ -91,7 +90,7 @@ Follow these steps to set up and run the project on your local machine:
 
 ## Accessibility & Responsiveness
 
-* The application is designed to be **keyboard-navigable**, enhancing accessibility for users who prefer or require keyboard interaction.
+* The application is designed to be **keyboard-navigable**, enhancing accessibility for users who prefer or require keyboard interaction. ⌨️
 * **CSS variables** and **responsive grid components** are employed to ensure the app is **mobile and tablet responsive**, providing a consistent experience across different devices.
 * While formal accessibility testing was not conducted, fundamental accessibility considerations were integrated during development.
 
